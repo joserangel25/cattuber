@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Gattuber</title>
+</head>
+<body>
+  <header>
+    <h1>Gattuber App</h1>
+  </header>
+  <main>
+    <section id="randomMichis">
+      <article class="card-michis">
+        <img  class="randomsImg" width="150" alt="Foto de gatito aleatorio"/>
+        <div class="btn-fav"></div>
+      </article>
+
+      <article class="card-michis">
+        <img  width="150" class="randomsImg" alt="Foto de gatito aleatorio"/>
+        <div class="btn-fav"></div>
+      </article>
+
+      <article class="card-michis">
+        <img width="150" class="randomsImg" alt="Foto de gatito aleatorio"/>
+        <div class="btn-fav"></div>
+      </article>
+
+      <button onclick="getRandomMichis()">Recargar</button>
+    </section>
+
+    <section id="favoritesMichis">
+      <!-- Esto es lo que recibimos desde el js -->
+      <!-- <article>
+        <img id="id-foto-gato" width="150" alt="Foto de gatito aleatorio"/>
+        <button>No Fav</button>
+      </article> -->
+    </section>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>

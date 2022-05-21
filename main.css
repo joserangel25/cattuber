@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+#randomMichis {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: coral;
+  margin: 0 auto;
+}
+
+.card-michis {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-michis img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.btn-fav {
+  width: 12px;
+  height: 12px;
+  background-color: red;
+}
+.btn-delete-fav {
+  padding: 6px;
+  background-color: aquamarine;
+  width: 60px;
+}
